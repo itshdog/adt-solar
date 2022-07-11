@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" id="html">
+    <head>
+        <!-- Basic -->
+        <meta charset="UTF-8">
+        <title>ADT Solar</title>
+        <!-- CSS -->
+        <link rel="stylesheet" href="styles/index.css" type="text/css">
+        <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <!-- Scripts -->
+        <script defer src="JS/index.js"></script>
+    </head>
+
+    <header></header>
+
+    <body style="background: #3B413C">
+        <div id="body-title">
+            ADT Solar
+            <div id="body-quote" onclick="openQuote();">
+                <span id="body-quote-text">Get a quote today!</span>
+            </div>
+        </div>
+        <div id="quote-wrapper" class="hidden">
+            <div id="quote-container">
+                <div id="quote-top">
+                    <span id="close-button" onclick="closeQuote();">X</span>
+                </div>
+                <div id="quote-bottom">
+                    <form name="solar-quote">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder=""/><br>
+                        <label for="email">Email</label>
+                        <input type="text" id="email" name="email" placeholder=""/><br>
+                        <label for="email">Address</label>
+                        <input type="text" id="address" name="address" placeholder=""/><br>
+                        <div id="utilities">
+                            <label for="message">Utilities ($/month)</label><br>
+                            <div id="utilities-months">
+                                <label for="january">January</label>
+                                <input type="text" id="january" name="january" placeholder=""/><br>
+                                <label for="february">February</label>
+                                <input type="text" id="february" name="february" placeholder=""/><br>
+                                <label for="march">March</label>
+                                <input type="text" id="march" name="march" placeholder=""/><br>
+                                <label for="april">April</label>
+                                <input type="text" id="april" name="april" placeholder=""/><br>
+                                <label for="may">May</label>
+                                <input type="text" id="may" name="may" placeholder=""/><br>
+                                <label for="june">June</label>
+                                <input type="text" id="june" name="june" placeholder=""/><br>
+                                <label for="july">July</label>
+                                <input type="text" id="july" name="july" placeholder=""/><br>
+                                <label for="august">August</label>
+                                <input type="text" id="august" name="august" placeholder=""/><br>
+                                <label for="september">September</label>
+                                <input type="text" id="september" name="september" placeholder=""/><br>
+                                <label for="october">October</label>
+                                <input type="text" id="october" name="october" placeholder=""/><br>
+                                <label for="november">November</label>
+                                <input type="text" id="november" name="november" placeholder=""/><br>
+                                <label for="december">December</label>
+                                <input type="text" id="december" name="december" placeholder=""/>
+                            </div>
+                        </div>
+                        <div id="submit">
+                            <input type="submit" value="Submit">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

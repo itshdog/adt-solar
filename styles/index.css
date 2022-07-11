@@ -1,0 +1,148 @@
+#body-title {
+    width: 90vw;
+    max-width: 400px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 3em;
+    font-weight: 700;
+    color: #ffffff
+}
+
+#body-title #body-quote {
+    width: fit-content;
+    margin: 0 auto;
+    background-color: #005DA9;
+    padding: 5px 10px;
+    border-radius: 1em;
+    font-size: 0.5em!important;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+#body-title #body-quote:hover {
+    background-color: #1375c5;
+    transition: 0.5s;
+}
+
+#quote-wrapper {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+
+#quote-wrapper #quote-container {
+    width: 90%;
+    max-width: 600px;
+    background: #3B413C;
+    border-radius: 1em;
+    color: white;
+    padding: 0 15px;
+
+    position: fixed;
+    transform: translate(-50%, 0);
+    left: 50%;
+    top: 10%;
+}
+
+#quote-container #quote-top {
+    text-align: right;
+    color: red;
+    font-weight: 700;
+    font-size: 1.5em;
+    width: 100%;
+}
+
+#quote-container #quote-top #close-button {
+    cursor: pointer;
+    user-select: none;
+}
+
+#quote-bottom {
+    text-align: center;
+    max-height: 80vh;
+    overflow-y: scroll;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+#utilities {
+    background-color: #005DA9;
+    border-radius: 1em;
+    padding: 10px 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+
+#utilities-months label, #utilities-months input {
+    margin-top: 5px;
+    width: 100%;
+    max-width: 400px;
+}
+
+#utilities-months label {
+    width: 100px;
+}
+
+#utilities-months input {
+    width: calc(100% - 110px);
+}
+
+#submit input {
+    background-color: #005DA9;
+    width: fit-content!important;
+    margin-bottom: 10px;
+    padding: 2px 10px;
+}
+
+label {
+    padding-left: 10px;
+    width: 100px;
+    margin-top: 10px;
+}
+
+input {
+    background-color: rgba(0,0,0,0.15);
+    text-decoration: none;
+    border: none;
+    border-radius: 1em;
+    color: white;
+    width: calc(100% - 135px);
+    padding: 0 0.75em;
+    margin-top: 10px;
+}
+
+.hidden {
+    opacity: 0!important;
+    display: none!important;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(0, 0, 0, 0.25);
+    border-radius: 1em;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255,255,255,0.1);
+  }
+  
+
